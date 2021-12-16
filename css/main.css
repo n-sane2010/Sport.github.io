@@ -108,7 +108,7 @@ div > a.popup-modal.button[href="#form"] {
     margin: 0 auto;
     text-align: center!important;
 	background: #2f3847;
-	max-width: 280px;
+	max-width: 380px;
     z-index: 1045;
 	height: auto;
 	padding: .8%;
@@ -130,7 +130,7 @@ a.popup-modal-dismiss {
 }
 
 .mfpcontentBorder {
-    max-width: 310px;
+    max-width: 350px;
     border: 1px solid #e1e1e1;
     padding: 4% 5% 0.8%;
 }
@@ -145,7 +145,7 @@ display: inline-block;
 }
 
 .putNumber, .putName, .putPhone {
-    width: 210px!important;
+    width: 270px!important;
     padding: 9px 10px!important;
     height: 40px!important;
     background: rgba(255, 255, 255, 0.62)!important;
@@ -180,7 +180,7 @@ p.title {
 }
 
 input.btn {
-    width: 210px;
+    width: 250px;
     height: 40px;
     background: #ff0000;
     margin: 10px 0px 15px!important;
