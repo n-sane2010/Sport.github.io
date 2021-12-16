@@ -225,7 +225,7 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        max-width: 480px;
+        max-width: 600px;
         background-color: rgba(0,0,0,0.03);
         border-radius: 10px;
         box-shadow: 0 5px 15px 0 #ffdb45;
@@ -468,6 +468,7 @@
             margin-bottom: 35px;
         }
     }
+
 
     @font-face {
         font-family: "icomoon";
@@ -1074,6 +1075,12 @@
 
         .nav-down-division-wrap {
             display: none
+        }
+    }
+
+    @media (max-width: 1023px){
+        .footer-nav-info-links{
+            display: none;!important;
         }
     }
 
@@ -2812,6 +2819,9 @@
         position: relative
     }
 
+
+    }
+
     @media (max-width: 767px) {
         .news-v-main-img {
             border-radius: 0
@@ -4458,180 +4468,6 @@
 
         <footer class="footer">
             <div class="container">
-                <nav class="footer-nav">
-                    <div class="footer-nav-block footer-sports">
-                        <ul>
-                            <li class="footer-nav-title">Виды спорта <i class="icon-down"></i></li>
-                            <li><a href="#toform">Футбол</a></li>
-                            <li><a href="#toform">Бокс</a></li>
-                            <li><a href="#toform">Теннис</a></li>
-                            <li><a href="#toform">Баскетбол</a></li>
-                            <li><a href="#toform">Биатлон</a></li>
-                            <li><a href="#toform">Хокей</a></li>
-                            <li><a href="#toform">ММА</a></li>
-                            <li><a href="#toform">Футзал</a></li>
-                            <li><a href="#toform">Авто/Мото</a></li>
-                            <li><a href="#toform">Волейбол</a></li>
-                            <li><a href="#toform">Гандбол</a></li>
-                            <li><a href="#toform">Киберспорт</a></li>
-                            <li><a href="#toform">Покер</a></li>
-                            <li><a href="#toform">Снукер</a></li>
-                            <li><a href="#toform">Олимпийские игры</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-nav-block footer-football">
-                        <ul>
-                            <li class="footer-nav-title">Футбол Украины <i class="icon-down"></i></li>
-                            <li>
-                                <a href="#toform">Премьер Лига</a>
-                                <span>|</span>
-                                <a href="#toform">таблица</a>
-                            </li>
-                            <li>
-                                <a href="#toform">Первая Лига</a>
-                                <span>|</span>
-                                <a href="#toform">таблица</a>
-                            </li>
-                            <li><a href="#toform">Кубок Украины</a></li>
-                        </ul>
-                        <ul>
-                            <li class="footer-nav-title">Еврокубки <i class="icon-down"></i></li>
-                            <li>
-                                <a href="#toform">Лига Чемпионов</a>
-                                <span>|</span>
-                                <a href="#toform">таблица</a></li>
-                            <li>
-                                <a href="#toform">Лига Европы</a>
-                                <span>|</span>
-                                <a href="#toform">таблица</a>
-                            </li>
-                            <li>
-                                <a href="#toform">Лига конференций</a>
-                            </li>
-                        </ul>
-                        <ul>
-                            <li class="footer-nav-title">Международные <i class="icon-down"></i></li>
-                            <li>
-                                <a href="#toform">Чемпионат мира</a>
-                            </li>
-                            <li>
-                                <a href="#toform">Евро-2020</a>
-                                <span>|</span>
-                                <a href="#toform">таблица</a>
-                            </li>
-                            <li>
-                                <a href="#toform">Лига наций</a>
-                                <span>|</span>
-                                <a href="#toform">таблица</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-nav-block footer-countries">
-                        <ul>
-                            <li class="footer-nav-title">Футбол - страны <i class="icon-down"></i></li>
-                            <li>
-                                <a href="#toform">Англия</a>
-                                <span>|</span>
-                                <a href="#toform">таблица</a>
-                            </li>
-                            <li>
-                                <a href="#toform">Германия</a>
-                                <span>|</span>
-                                <a href="#toform">таблица</a>
-                            </li>
-                            <li>
-                                <a href="#toform">Испания</a>
-                                <span>|</span>
-                                <a href="#toform">таблица</a>
-                            </li>
-                            <li>
-                                <a href="#toform">Италия</a>
-                                <span>|</span>
-                                <a href="#toform">таблица</a>
-                            </li>
-                            <li>
-                                <a href="#toform">Франция</a>
-                                <span>|</span>
-                                <a href="#toform">таблица</a>
-                            </li>
-                            <li><a href="#toform">Аргентина</a></li>
-                            <li><a href="#toform">Бельгия</a></li>
-                            <li><a href="#toform">Бразилия</a></li>
-                            <li><a href="#toform">Греция</a></li>
-                            <li><a href="#toform">Голландия</a></li>
-                            <li><a href="#toform">Польша</a></li>
-                            <li><a href="#toform">Португалия</a></li>
-                            <li>
-                                <a href="#toform">Россия</a>
-                                <span>|</span>
-                                <a href="#toform">Таблица</a>
-                            </li>
-                            <li><a href="#toform">Румыния</a></li>
-                            <li><a href="#toform">Турция</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-nav-block footer-clubs">
-                        <ul>
-                            <li class="footer-nav-title">Футбольные клубы <i class="icon-down"></i></li>
-                            <li><a href="#toform">Динамо Киев</a></li>
-                            <li><a href="#toform">Днепр-1</a></li>
-                            <li><a href="#toform">Металлист</a></li>
-                            <li><a href="#toform">Шахтер Донецк</a></li>
-                            <li><a href="#toform">Арсенал</a></li>
-                            <li><a href="#toform">Бавария</a></li>
-                            <li><a href="#toform">Барселона</a></li>
-                            <li><a href="#toform">Интер</a></li>
-                            <li><a href="#toform">Ливерпуль</a></li>
-                            <li><a href="#toform">Манчестер Сити</a></li>
-                            <li><a href="#toform">Манчестер Юнайтед</a>
-                            </li>
-                            <li><a href="#toform">Милан</a></li>
-                            <li><a href="#toform">Реал Мадрид</a></li>
-                            <li><a href="#toform">Челси</a></li>
-                            <li><a href="#toform">Ювентус</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-nav-info-links">
-                        <ul>
-                            <li>
-                                <a href="#toform">Ставки на спорт</a>
-                            </li>
-                        </ul>
-                        <ul class="footer-nav-bookmakers">
-                            <li class="footer-nav-bookmaker-rating">
-                                <a href="#toform">Рейтинг букмекеров</a>
-                                <i class="icon-down"></i>
-                            </li>
-                            <li class="footer-nav-bookmaker"><a href="#toform">1xBet</a>
-                            </li>
-                            <li class="footer-nav-bookmaker"><a href="#toform">Melbet</a>
-                            </li>
-                            <li class="footer-nav-bookmaker"><a href="#toform">Parimatch</a></li>
-                            <li class="footer-nav-bookmaker"><a href="#toform">Mostbet</a>
-                            </li>
-                        </ul>
-                        <ul>
-                            <li><a href="#toform">Покер-румы</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="#toform">Футбол онлайн</a></li>
-                            <li><a href="#toform">Спортивная ТВ-программа</a></li>
-                            <li><a href="#toform">Материалы партнеров</a></li>
-                            <li><a href="#toform">Календарь
-                                новостей</a></li>
-                            <li><a href="#toform">Наши репортеры</a></li>
-                            <li><a href="#toform">Наши эксперты</a></li>
-                        </ul>
-                        <ul class="privacy-desktop">
-                            <li><a href="#toform">Политика конфиденциальности</a></li>
-                            <li><a href="#toform">Пользовательское соглашение</a></li>
-                            <li><a href="#toform">Правовая информация</a></li>
-                            <li><a href="#toform">Редакционная политика</a></li>
-                            <li><a href="#toform">Реклама на сайте</a></li>
-                            <li><a href="#toform">Контакты</a></li>
-                        </ul>
-                    </div>
-                </nav>
                 <div class="footer-bottom">
                     <div class="footer-links">
                             <span class="footer-copy">
