@@ -24,7 +24,13 @@ body {
     text-decoration: none;
     font-family: Alice, serif;
     text-shadow: #a58383 2px 2px 2px;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
+    animation: cloud1 2s linear infinite;
+}
+@keyframes cloud1 {
+    0% { background-color: red }
+    50% { background-color: #ffdb45 }
+    100% { background-color: red}
 }
 
 .button:hover {
