@@ -7,25 +7,28 @@ body {
     display: inline-block;
     z-index: 2;
     right: 20px;
-    bottom: 100px;
+    bottom: 50px;
     position: fixed;
-    min-width: 178px;
     margin: 6px 28px;
     padding: 15px 40px;
     font-weight: 800;
-    font-family: sans-serif;
-    font-size: 14px;
     text-transform: uppercase;
-    letter-spacing: 1px;
     color: #fff;
+    height: 100px;
+    width: 100px;
     background-color: red;
     transition: .15s ease-out;
     box-sizing: border-box;
+    border-radius: 50%;
     text-decoration: none;
     font-family: Alice, serif;
-    text-shadow: #a58383 2px 2px 2px;
-	letter-spacing: 1px;
-    animation: cloud1 2s linear infinite;
+    animation: cloud1 0.5s linear infinite;
+    background: url(../img/ico-cart.png) 10px center no-repeat, red url(../img/btn_top.png) 0 0 no-repeat;
+    cursor: pointer;
+}
+.button img{
+    margin-top: 20px;
+    margin-left: 6px;
 }
 @keyframes cloud1 {
     0% { background-color: red }
@@ -33,51 +36,6 @@ body {
     100% { background-color: red}
 }
 
-.button:hover {
-    color: #fff!important;
-}
-
-.button:last-of-type {margin: 6px 28px;}
-.button:before {
-  content:"";
-  position: absolute;
-  top: -6px;
-  left: 0;
-  height: calc(100% + 12px);
-  width: 100%;
-  border: 2px solid #AB274F;
-  box-sizing: border-box;
-  transition: .2s ease-in-out;
-}
-
-.button:after {
-  content:"";
-  position: absolute;
-  top: 0;
-  left: -8px;
-  height: 100%;
-  width: calc(100% + 16px);
-  border: 1px solid #AB274F;
-  box-sizing: border-box;
-  transition: .2s ease-in-out;
-}
-
-.button:hover:before {
-  top: 0;
-  left: -8px;
-  height: 100%;
-  width: calc(100% + 16px);
-}
-.button:hover:after {
-  top: -6px;
-  left: 0;
-  height: calc(100% + 12px);
-  width: 100%;
-}
-
-.button:hover{
-    color:#AB274F;
-}
 
 .panel-grid-cell section {
     padding: 80px 0;
